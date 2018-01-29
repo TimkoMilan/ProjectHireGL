@@ -1,42 +1,70 @@
+body{
+	background: rgb(238, 238, 238);
+}
 #main{
 	margin-top: 150px;
 	border: 1px solid rgb(212, 225, 87);
 	width: 400px;
+	background: white;
 }
 #logo{
 	background: rgb(212, 225, 87);
 	width: 400px;
 }
 #logIn{
-	
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 	background: white;
 	border-bottom: 1px solid rgb(212, 225, 87);
-	width: 400px;
+	width: 350px;
   
 }
 #userNameInput{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;;
 	border:none;
 	border-bottom: 2px solid rgb(212, 225, 87);
-	width: 400px;
+	width: 350px;
 }
 #userName{
-	width: 400px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 350px;
 }
 #password{
-	width: 400px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 350px;
 }
 #inputPassword{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 	border:none;
 	border-bottom: 2px solid rgb(212, 225, 87);
-	width: 400px;
+	width: 350px;
 }
 #error{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-top: 10px
 	font-size: 12px;
 	color: red;
 	width: 300px;
 }
 #button{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
 	background: rgb(212, 225, 87);
-
-
+	font-weight: bold;
+	color: black;
+ 
+}
+#col{
+	background color: white;
 }
