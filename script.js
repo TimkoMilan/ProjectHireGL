@@ -11,12 +11,24 @@ $(document).ready(function(){
 		else{
 				$("#error").css('visibility', 'hidden');
 
+			$.ajax(
+            {
+                url: urllink,
+                data: {format: 'json'},
+                error: function()
+                {
+                    //chyba
+                },
+                dataType: 'json',
+                success: function(data)
+                {
 
-		}
+
+              };
 
 
-
-
-	});
-
+                },
+                type: 'GET'
+            });
+        }
 });
